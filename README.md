@@ -2,7 +2,11 @@
 This is a barebone repository for code of *Eventfulness for Interactive Video Alignment*
 
 # Installation 
-We set up a virtual environment using [conda](https://docs.anaconda.com/free/anaconda/install/index.html) for network training/testing. With the assumption that it is being installed for your bash script beforehand you can create the eventfulness by simply using the commands below:
+You can first clone this directory with the command
+```
+git@github.com:jiatiansun/Eventfulness.git
+```
+We set up a virtual environment using [conda](https://docs.anaconda.com/free/anaconda/install/index.html) for network training/testing. With the assumption that it is being installed for your bash script beforehand, you can create the eventfulness by simply using the commands below:
 ```
 cd setup
 bash createCondaEnv.sh
@@ -25,7 +29,7 @@ An example commmand of training a network with 2 CUDA GPUS on our synthetic data
 
 # Predict Eventfulness with our Trained Network
 
-Download our trained model from  [eventfulness website](https://www.cs.cornell.edu/abe/projects/eventfulness/) and then extract the `caccvel_full` and place it under `checkpoints` directory. Then, you can use the model to predict eventfulness for all videos stored in a dataset in the format of 
+Download our trained model from  [eventfulness website](https://www.cs.cornell.edu/abe/projects/eventfulness/) and then extract the `checkpoints` and place it under the eventfulness repository. Then, you can use the model to predict eventfulness for all videos stored in a dataset in the format of 
 ```
 target_dir/
     val/
