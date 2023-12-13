@@ -1,0 +1,20 @@
+{
+  "random_crop":true,
+  "scale_size":0.5,
+  "crop_size":100,
+  "cameraShake":false,
+  "cropShape":0.8,
+  "velocityScale": 0.1,
+  "springStiffness": 0.2,
+  "vertical_flip": false,
+  "vertical_flip_prob":0.5,
+  "horizontal_flip":false,
+  "horizontal_flip_prob":0.5,
+  "random_rotation": false,
+  "random_rotation_angle":45,
+  "color_jitter": true,
+  "brightness": 0.3,
+  "contrast": 0.3,
+  "saturation": 0.3,
+  "hue": 0.3
+}
